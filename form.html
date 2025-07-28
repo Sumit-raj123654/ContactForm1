@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Petrol Pump KUSK Dealership</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Red Top Bar -->
+  <div class="top-red-bar"></div>
+
+  <!-- Navigation Section -->
+  <div class="nav-section shadow-sm">
+    <div class="title">
+      <i class="fas fa-gas-pump"></i>
+      Petrol Pump Chayan Dealership
+    </div>
+    <div>
+      <a href="#" class="btn btn-primary btn-custom">
+        <i class="fas fa-user"></i> Apply Dealership
+      </a>
+    </div>
+  </div>
+
+  <!-- Blue Bottom Bar -->
+  <div class="bottom-blue-bar"></div>
+
+
+  <!-- Application Form -->
+
+  <div class="container my-4">
+    <!-- Application Form Section -->
+    <div class="border rounded">
+      <div class="section-header">
+        <i class="fas fa-bars me-2"></i> Application Form
+      </div>
+
+      <div class="info-row row">
+        <div class="col-md-6">
+          <p><span class="info-label">Title:</span> Advertisement Locations of Petrol Pump Dealer Chayan in</p>
+          <p><span class="info-label">Type of RO:</span> Regular</p>
+          <p><span class="info-label">Category:</span> Open</p>
+          <p><span class="info-label">Published Date:</span> 2025-05-31</p>
+          <p><span class="info-label">Apply As:</span> 
+            <div class="radio-group">
+              <div><input type="radio" name="applyAs" checked> Individual</div>
+              <div><input type="radio" name="applyAs"> Partnership</div>
+            </div>
+            
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p><span class="info-label">Location Description:</span></p>
+          <p><span class="info-label">Mode of Selection:</span> Draw of Lots</p>
+          <p><span class="info-label">State:</span></p>
+          <p><span class="info-label">Closing Date:</span> 2025-07-31</p>
+          <p><span class="info-label">Retail Outlet Eligibility:</span> 15 X 15 Sq.M. (Minimum Size)</p>
+          <p><span class="info-label">Criteria for Land:</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Personal Info Section -->
+    <div class="container my-4">
+    <div class="border rounded">
+      <div class="section-header">
+        <i class="fas fa-user me-2"></i> Personal Information
+      </div>
+
+      <div class="form-section row">
+        <!-- LEFT COLUMN -->
+        <div class="col-md-6">
+          <label class="form-label">Type of RO *</label>
+          <input type="text" class="form-control" value="Regular" readonly />
+
+          <label class="form-label">First Name *</label>
+          <input type="text" class="form-control" placeholder="First Name" />
+
+          <label class="form-label">Category Name *</label>
+          <select class="form-select">
+            <option selected disabled>Select Category</option>
+            <option>Open</option>
+            <option>SC</option>
+            <option>ST</option>
+          </select>
+
+          <label class="form-label">Mobile Number *</label>
+          <input type="text" class="form-control" placeholder="98101xxxxx" />
+
+          <label class="form-label">Res. Address *</label>
+          <input type="text" class="form-control" />
+
+          <label class="form-label">State *</label>
+          <select class="form-select">
+            <option selected disabled>Select</option>
+            <option>Uttar Pradesh</option>
+            <option>Bihar</option>
+            <!-- Add all states -->
+          </select>
+
+          <label class="form-label">Email *</label>
+          <input type="email" class="form-control" placeholder="abc@gmail.com" />
+
+          <label class="form-label">Whether Applicant is Indian Citizen *</label>
+          <div class="radio-group">
+            <div><input type="radio" name="indian_citizen" checked /> Yes</div>
+            <div><input type="radio" name="indian_citizen" /> No</div>
+          </div>
+
+          <label class="form-label mt-3">Date of Birth *</label>
+          <input type="date" class="form-control" />
+
+          <label class="form-label">Father/Husband Name *</label>
+          <div class="row name-group">
+            <div class="col-4"><input type="text" class="form-control" placeholder="First Name" /></div>
+            <div class="col-4"><input type="text" class="form-control" placeholder="Middle Name" /></div>
+            <div class="col-4"><input type="text" class="form-control" placeholder="Last Name" /></div>
+          </div>
+
+          <label class="form-label">Marital Status *</label>
+          <div class="radio-group">
+            <div><input type="radio" name="marital_status" checked /> Single</div>
+            <div><input type="radio" name="marital_status" /> Married</div>
+            <div><input type="radio" name="marital_status" /> Widow(er)</div>
+            <div><input type="radio" name="marital_status" /> Divorce</div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="col-md-6">
+          <label class="form-label">Name of Company *</label>
+          <select class="form-select">
+            <option selected disabled>Select Company</option>
+            <option>IOCL</option>
+            <option>BPCL</option>
+            <option>HPCL</option>
+          </select>
+
+          <label class="form-label">Last Name *</label>
+          <input type="text" class="form-control" placeholder="Last Name" />
+
+          <label class="form-label">Gender *</label>
+          <select class="form-select">
+            <option selected disabled>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+
+          <label class="form-label">Landline Number</label>
+          <input type="text" class="form-control" />
+
+          <label class="form-label">Pincode</label>
+          <input type="text" class="form-control" />
+
+          <label class="form-label">District *</label>
+          <input type="text" class="form-control" />
+
+          <label class="form-label">PAN Number *</label>
+          <input type="text" class="form-control" placeholder="ABCDE1234A" />
+
+          <label class="form-label">Residential of Indian as IT Rule *</label>
+          <div class="radio-group">
+            <div><input type="radio" name="it_resident" checked /> Yes</div>
+            <div><input type="radio" name="it_resident" /> No</div>
+          </div>
+
+          <label class="form-label mt-3">Physical Disability *</label>
+          <div class="radio-group">
+            <div><input type="radio" name="disability" checked /> Yes</div>
+            <div><input type="radio" name="disability" /> No</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Educational Qualification Section -->
+    
+
+ 
+
+
+
+<div class="form-section">
+  <div class="section-header">Applicant's Education Qualification (Minimum 10th pass or Equivalent)</div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Qualification *</label>
+      <input type="text" placeholder="Degree/B.Com">
+    </div>
+    <div class="form-group">
+      <label>Board/University/Institute *</label>
+      <input type="text" placeholder="Board/University/Institute">
+    </div>
+    <div class="form-group">
+      <label>Degree *</label>
+      <input type="text" placeholder="Degree">
+    </div>
+    <div class="form-group">
+      <label>Year *</label>
+      <select>
+        <option>Select Year</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Group Type *</label>
+      <select>
+        <option>Select Type</option>
+        <option>Group 1</option>
+        <option>Group 2</option>
+        <option>Group 3</option>
+       
+      </select>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Name(s) of the owner of Land/Leaseholder *</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Relationship with Application *</label>
+      <select>
+        <option>Relationship with Application</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Date of registration sale deed / Gift deed / lease deed / date of mutation *</label>
+      <input type="date">
+    </div>
+    <div class="form-group">
+      <label>Khasra No / Khatouni / Gut No / Survey No. *</label>
+      <input type="text">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group" style="flex: 1 1 100%;">
+      <label>Location of the Land *</label>
+      <input type="text" placeholder="Fill the complete address of the land">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Frontage in Meter *</label>
+      <input type="number" value="20">
+    </div>
+    <div class="form-group">
+      <label>Depth in Meter *</label>
+      <input type="number" value="20">
+    </div>
+    <div class="form-group">
+      <label>Area (Sq.M) *</label>
+      <input type="number" value="400">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group" style="flex: 1 1 100%;">
+      <label>Are you eFilling to transfer the land on sale / long lease of the Petrol Pump *</label>
+      <select>
+        <option>Select Type</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group" style="flex: 1 1 100%;">
+      <label>Please specify rate(RS) term *</label>
+      <textarea rows="2" placeholder="If you want to give the petrol pump to company to operate it, write rate terms on annual basis, if not, write"></textarea>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Do you want to offer another plot of land under? *</label>
+      <div class="radio-group">
+        <label><input type="radio" name="another_plot"> Yes</label>
+        <label><input type="radio" name="another_plot" checked> No</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Create Password *</label>
+      <input type="password" placeholder="Create your login password">
+    </div>
+  </div>
+</div>
+
+<!--  -->
+
+<!-- DECLARATION SECTION -->
+<div class="section">
+  <div class="section-header">
+    <i class="fa fa-check-square"></i> Declaration
+  </div>
+  <div class="section-body">
+    <p>
+      I, …………………… …………………… of/son of/wife of Shri …………………… …………………… ……………………
+      hereby confirm that I have been authorized to submit this application on behalf of M/s ……………………
+      and the information given above is true and correct. Any wrong information/misrepresentation/suppression
+      of facts will make us ineligible for this Dealership. That if any information/declaration given by us in application
+      or in any document submitted by us in support of application for award of the dealership shall be found to be untrue
+      or incorrect or false, the Company would be within its rights to withdraw/terminate letter of intent of the dealership
+      (if already appointed) and that we would have no claim, whatsoever, against the Corporation for such withdrawal/termination.
+    </p>
+    <label><input type="checkbox" required> Accept *</label>
+  </div>
+</div>
+
+<!-- APPLICANT PHOTO -->
+<div class="section">
+  <div class="section-header">
+    <i class="fa fa-image"></i> Applicant Photo
+  </div>
+  <div class="section-body">
+    <label><strong>Applicant Photo *</strong></label><br>
+    <input type="file" accept=".jpg" required>
+    <p class="note">Format: jpg only, Max Size: 50kb, Dimension: 5.5cm X 5.5cm</p>
+  </div>
+</div>
+
+<!-- ID AND ADDRESS PROOF -->
+<div class="section">
+  <div class="section-header">
+    <i class="fa fa-file"></i> Applicant ID and Address Proof
+  </div>
+  <div class="section-body dual-column">
+    <div>
+      <label><strong>Applicant ID Proof *</strong></label><br>
+      <input type="file" accept=".jpg" required>
+      <p class="note">Format: jpg only, Max Size: 100kb, Dimension: 5.5cm X 5.5cm</p>
+    </div>
+    <div>
+      <label><strong>Applicant Address Proof *</strong></label><br>
+      <input type="file" accept=".jpg" required>
+      <p class="note">Format: jpg only, Max Size: 100kb, Dimension: 5.5cm X 5.5cm</p>
+    </div>
+  </div>
+</div>
+
+<!-- BUTTONS -->
+<div class="button-group">
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="button" class="btn btn-secondary">Back</button>
+</div>
+
+
+  </div>
+  </div>
+</body>
+</html>
